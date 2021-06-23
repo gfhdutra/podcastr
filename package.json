@@ -6,8 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "server": "json-server podcastr-db.json -w -d -p 3333",
-    "deploy": "npm install -g json-server && npm run server && npm run build"
+    "server": "json-server db.json -w -d -p 3333"
   },
   "dependencies": {
     "@types/node": "^14.14.41",
