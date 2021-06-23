@@ -6,8 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "server": "json-server db.json -w -d -p 3333",
-    "export": "next build && next export"
+    "server": "json-server db.json -w -d -p 3333"
   },
   "dependencies": {
     "@types/node": "^14.14.41",
